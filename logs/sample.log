@@ -1,0 +1,53 @@
+2026-08-14 09:00:05 INFO AuthService User login successful userId=101
+2026-08-14 09:00:12 INFO UserService User profile retrieved userId=101 requestId=req-501
+2026-08-14 09:00:47 INFO OrderService Order created userId=102 orderId=ord-3301
+2026-08-14 09:01:10 DEBUG DatabaseService Query completed requestId=req-502 duration=45
+2026-08-14 09:02:33 INFO InventoryService Stock updated productId=prod-77 requestId=req-503
+2026-08-14 09:03:15 WARN AuthService Failed login attempt userId=103
+2026-08-14 09:04:02 INFO PaymentService Payment initiated userId=102 requestId=req-504 orderId=ord-3301
+2026-08-14 09:04:20 INFO PaymentService Payment completed userId=102 requestId=req-504 orderId=ord-3301 duration=320
+2026-08-14 09:05:48 INFO NotificationService Email notification sent userId=102 requestId=req-505
+2026-08-14 09:06:30 INFO UserService User registration completed userId=104
+INVALID LOG ENTRY WITH NO STRUCTURE
+2026-08-14 09:08:10 INFO OrderService Order status updated userId=101 orderId=ord-3301
+2026-08-14 09:09:44 WARN InventoryService Low stock detected productId=prod-45
+2026-08-14 09:10:05 INFO AuthService Token validation successful userId=105 requestId=req-506
+2026-08-14 09:11:12 ERROR DatabaseService Database connection timeout requestId=req-507 duration=5000
+2026-08-14 09:12:00 INFO DatabaseService Database connection established requestId=req-508
+2026-08-14 09:13:37 INFO PaymentService Payment initiated userId=106 requestId=req-509 orderId=ord-3302
+ERROR PaymentService Payment gateway timeout userId=106 requestId=req-509
+2026-08-14 09:15:02 ERROR PaymentService Payment gateway timeout userId=106 requestId=req-509 orderId=ord-3302 duration=1240 statusCode=500
+2026-08-14 09:16:20 INFO OrderService Order created userId=107 orderId=ord-3303
+2026-08-14 09:17:05 INFO InventoryService Inventory reservation created productId=prod-12 orderId=ord-3303
+2026-08-14 09:18:40 WARN UserService User profile updated userId=108
+2026-08-14 09:19:59 INFO NotificationService Notification queued userId=107 requestId=req-510
+2026-08-14 09:20:22 DEBUG AuthService Token validation successful userId=101 requestId=req-511 duration=8
+2026-08-14 09:21:15 INFO AuthService User logout userId=101
+2026-08-14 09:22:40 SOMETHING AuthService Test message userId=101
+2026-08-14 09:23:58 INFO PaymentService Refund initiated userId=102 requestId=req-512 orderId=ord-3301
+2026-08-14 09:25:47 INFO OrderService Order processing started userId=107 orderId=ord-3303
+2026-08-14 09:26:33 WARN DatabaseService Query completed slowly requestId=req-513 duration=1800
+2026-08-14 09:27:50 INFO UserService User profile retrieved userId=109 requestId=req-514
+2026-08-14 10:00:05 INFO AuthService User login successful userId=110
+2026-08-14 10:00:48 ERROR AuthService Invalid authentication token userId=110 requestId=req-515
+2026-08-14 10:01:20 ERROR PaymentService Payment failed userId=103 requestId=req-516 orderId=ord-3304 statusCode=402
+2026-08-14 10:02:10 INFO OrderService Order created with 3 items userId=103 orderId=ord-3304
+2026-08-14 10:03:05 ERROR DatabaseService Database connection failed requestId=req-517 duration=3000
+2026-08-14 10:04:22 WARN InventoryService Product unavailable productId=prod-89
+2026-08-14 10:05:00 ERROR
+2026-08-14 10:06:15 ERROR OrderService Order cancelled due to payment failure userId=103 orderId=ord-3304
+2026-08-14 10:07:40 WARN NotificationService Notification delivery failed userId=103 requestId=req-518
+2026-08-14 10:08:59 INFO InventoryService Stock updated productId=prod-89 requestId=req-519
+2026/08/14 10:09:30 INFO UserService User profile updated userId=104
+2026-08-14 10:10:14 DEBUG DatabaseService Query completed requestId=req-520 duration=0
+2026-08-14 10:11:02 INFO PaymentService Payment completed userId=104 requestId=req-520 orderId=ord-3305 duration=410
+2026-08-14 10:12:47 INFO AuthService User login successful
+2026-08-14 10:13:33 WARN AuthService Failed login attempt userId=105
+2026-08-14 10:14:58 INFO OrderService Order status updated userId=104 orderId=ord-3305
+2026-08-14 10:15:40 ERROR PaymentService Payment gateway timeout userId=105 requestId=req-521 orderId=ord-3306 duration=9800 statusCode=504
+2026-08-14 10:16:52 INFO NotificationService Email notification sent userId=104 requestId=req-522
+2026-08-14 10:18:05 INFO UserService User registration completed userId=111
+2026-08-14 10:19:30 WARN DatabaseService Query completed slowly requestId=req-523 duration=2200
+2026-08-14 11:00:10 INFO AuthService User login successful userId=112
+2026-08-14 11:01:25 INFO OrderService Order created userId=112 orderId=ord-3307
+2026-08-14 11:02:47 INFO PaymentService Payment initiated userId=112 requestId=req-524 orderId=ord-3307
