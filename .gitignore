@@ -20,8 +20,9 @@ target/
 .DS_Store
 Thumbs.db
 
-# Logs generated during local development
-*.log
+# Generated/runtime logs
+runtime-logs/
+*.runtime.log
 
 # Environment / secret files
 .env
