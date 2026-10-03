@@ -21,4 +21,6 @@ public record LogEntry(
 
         metadata = Map.copyOf(metadata); // make metadata immutable
     }
+
+
 }

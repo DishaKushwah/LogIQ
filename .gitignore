@@ -31,3 +31,5 @@ runtime-logs/
 # Temporary files
 *.tmp
 *.temp
+# Local performance benchmark dataset
+logs/benchmark.log
